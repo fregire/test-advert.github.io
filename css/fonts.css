@@ -1,0 +1,77 @@
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-regular.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+  font-display: swap;
+}
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-light.woff2') format('woff2'), 
+       url('../fonts/roboto-light.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-light.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: normal; 
+  font-display: swap;
+}
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-bold.woff2') format('woff2'), 
+       url('../fonts/roboto-bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-black.woff2') format('woff2'), 
+       url('../fonts/roboto-black.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-black.woff') format('woff'); 
+  font-weight: 900; 
+  font-style: normal; 
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-lightitalic.woff2') format('woff2'), 
+       url('../fonts/roboto-lightitalic.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-lightitalic.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: italic; 
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-medium.woff2') format('woff2'), 
+       url('../fonts/roboto-medium.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-medium.woff') format('woff'); 
+  font-weight: 500; 
+  font-style: normal; 
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-thin.woff2') format('woff2'), 
+       url('../fonts/roboto-thin.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/roboto-thin.woff') format('woff'); 
+  font-weight: 100; 
+  font-style: normal; 
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: 'Rouble'; 
+  src: url('../fonts/rouble.woff2') format('woff2'), 
+       url('../fonts/rouble.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/rouble.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+  font-display: swap;
+}
