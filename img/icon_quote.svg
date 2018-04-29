@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40" height="31" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 58" enable-background="new 0 0 75 58" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="32.2" height="33.4"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_3_" x="-682" y="-4860" width="1440" height="6796"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="-5" y="-5" clip-path="url(#SVGID_4_)" fill="#F9C720" stroke="#F9C720" stroke-miterlimit="10" width="42.2" height="43.4"/>
+		<use xlink:href="#SVGID_3_"  overflow="visible" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+	</g>
+	
+		<use xlink:href="#SVGID_1_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+</g>
+<g>
+	<defs>
+		<polygon id="SVGID_5_" points="31.7,34.2 12.8,58 10.8,58 23.9,34.2 		"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_6_)">
+		<defs>
+			<rect id="SVGID_7_" x="-682.6" y="-4859.2" width="1440" height="6796"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="5.8" y="29.2" clip-path="url(#SVGID_8_)" fill="#F9C720" stroke="#F9C720" stroke-miterlimit="10" width="30.9" height="33.7"/>
+		<use xlink:href="#SVGID_7_"  overflow="visible" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+	</g>
+	
+		<use xlink:href="#SVGID_5_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_9_" x="42.2" width="32.2" height="33.4"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_9_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_10_)">
+		<defs>
+			<rect id="SVGID_11_" x="-682" y="-4860" width="1440" height="6796"/>
+		</defs>
+		<clipPath id="SVGID_12_">
+			<use xlink:href="#SVGID_11_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="37.2" y="-5" clip-path="url(#SVGID_12_)" fill="#F9C720" stroke="#F9C720" stroke-miterlimit="10" width="42.2" height="43.4"/>
+		<use xlink:href="#SVGID_11_"  overflow="visible" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+	</g>
+	
+		<use xlink:href="#SVGID_9_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+</g>
+<g>
+	<defs>
+		<polygon id="SVGID_13_" points="73.9,34.3 55,58.1 53,58.1 66.1,34.3 		"/>
+	</defs>
+	<clipPath id="SVGID_14_">
+		<use xlink:href="#SVGID_13_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_14_)">
+		<defs>
+			<rect id="SVGID_15_" x="-682.6" y="-4859" width="1440" height="6796"/>
+		</defs>
+		<clipPath id="SVGID_16_">
+			<use xlink:href="#SVGID_15_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="48" y="29.3" clip-path="url(#SVGID_16_)" fill="#F9C720" stroke="#F9C720" stroke-miterlimit="10" width="30.9" height="33.7"/>
+		<use xlink:href="#SVGID_15_"  overflow="visible" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+	</g>
+	
+		<use xlink:href="#SVGID_13_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F9C720" stroke-miterlimit="10"/>
+</g>
+</svg>
