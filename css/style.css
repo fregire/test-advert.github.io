@@ -45,6 +45,7 @@ img {
   font-weight: 300;
   border: none;
   background: #f9c620;
+  outline: none;
   -webkit-transition: background 200ms;
   -o-transition: background 200ms;
   transition: background 200ms;
@@ -158,8 +159,8 @@ img {
   height: 10px;
   display: inline-block;
   margin: 9px 13px;
-  background: url(../img/main-screen_arrow.png) no-repeat;
-  background-size: cover;
+  background: url(../img/icons_sprite.png) no-repeat;
+  background-position: -96px -5px;
 }
 /* Block - adv */
 .adv__inner {
@@ -384,6 +385,7 @@ img {
   top: 117px;
   width: 12px;
   height: 20px;
+  background-color: transparent;
 }
 .projects__arrow:hover {
   cursor: pointer;
@@ -630,12 +632,12 @@ img {
   top: 35px;
   right: 33px;
   width: 18px;
-  height: 17px;
+  height: 18px;
   display: block;
   border: none;
   outline: none;
-  background: url(../img/icon_close.png) no-repeat;
-  background-size: cover;
+  background: url(../img/icons_sprite.png) no-repeat;
+  background-position: -75px -1px;
   -webkit-transition: opacity 200ms;
   -o-transition: opacity 200ms;
   transition: opacity 200ms;
@@ -780,7 +782,6 @@ img {
 }
 .faq__quest--opened {
   border-bottom: 1px solid transparent;
-  padding-bottom: 0;
 }
 .faq__item {
   position: relative;
@@ -822,9 +823,6 @@ img {
 }
 .faq__answer {
   display: none;
-  -webkit-transition: all 600ms;
-  -o-transition: all 600ms;
-  transition: all 600ms;
 }
 /* Block - callback */
 .callback {
@@ -884,12 +882,15 @@ img {
   font-size: 14px;
   font-weight: 500;
   color: #d2d2d2;
-  -webkit-transition: all 200ms;
-  -o-transition: all 200ms;
-  transition: all 200ms;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
 }
 .form__name:hover {
   cursor: text;
+}
+.form__name--error {
+  color: #aa5a5b;
 }
 .form__name--active {
   top: -15px;
