@@ -33,9 +33,18 @@ $(".feed-item__slider").slick({
 
 // Открытие вопросов в секции faq 
 $(".faq__btn").on("click", function() {
-	$(this).siblings(".faq__quest").toggleClass("faq__quest--opened");
-	$(this).toggleClass("faq__btn--opened");
-	$(this).siblings(".faq__answer").toggle(300);
+	if($(this).hasClass("faq__btn--opened")){
+		$(this).siblings(".faq__quest").removeClass("faq__quest--opened");
+		$(this).removeClass("faq__btn--opened");
+		$(this).siblings(".faq__answer").slideUp(300);
+	} else {
+		$(this).siblings(".faq__quest").addClass("faq__quest--opened");
+		$(this).addClass("faq__btn--opened");
+		$(this).siblings(".faq__answer").slideDown(300);
+	}
+	
+	
+	
 
 
 });
@@ -51,3 +60,16 @@ $("input").on("blur", function() {
 });
 // Маска для телефона 
 $("#phone").mask("+7(999) 999-9999");
+
+
+// Проверка форм
+$(".btn--form").on("click", function(e) {
+	var forms = $(".input");
+	// Минус 1 т.к. форма с сообщением не обязательна к заполнению
+	for(var i = 0; i < forms.length - 1; i++ ){
+		if($(forms[i]).val() == ""){
+			$(forms[i]).siblings(".form__name").addClass("form__name--error");
+		}
+	};
+	e.preventDefault();
+});
