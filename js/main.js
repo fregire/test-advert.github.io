@@ -11,7 +11,43 @@ $(".projects__slider").slick({
     nextArrow: '<svg class="projects__arrow projects__arrow--next" width="11" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.6 19.9"><path class="projects__arrow-path" fill="none" stroke="#828181" stroke-miterlimit="10" d="M.5.4l9.3 9.3-9.3 9.8"/></svg>'
 });
 // Добавление счетчика для слайдов
- $(".projects__slider").on('afterChange', function(event, slick, currentSlide){
+$(".projects__slider").on('afterChange', function(event, slick, currentSlide){
  	var elemForCount = $(this).siblings(".projects__count-slide");
  	elemForCount.text(currentSlide + 1 + "/" + elemForCount.attr("data-length"));
 });
+
+ // Окно прайс-листа при закрытие
+$(".price__descr .descr__close").on("click", function() {
+	$(this).parent().css("display", "none");
+
+	setInterval(function() {
+		$(".price__descr").removeAttr("style");
+	}, 1000);
+});
+
+// Слайдеры для отзывов и шагов
+$(".feed-item__slider").slick({
+	nextArrow: "<div class='feed-item__arrow feed-item__arrow--next'><svg width='10' height='20' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='#000' stroke-miterlimit='10' d='M0 20l10-10M0 0l10 10.7'/></svg></div>",
+	prevArrow: "<div class='feed-item__arrow feed-item__arrow--prev'><svg width='10' height='20' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='#000' stroke-miterlimit='10' d='M10 0L0 10m10 10L0 9.3'/></svg></div>"
+});
+
+// Открытие вопросов в секции faq 
+$(".faq__btn").on("click", function() {
+	$(this).siblings(".faq__quest").toggleClass("faq__quest--opened");
+	$(this).toggleClass("faq__btn--opened");
+	$(this).siblings(".faq__answer").toggle(300);
+
+
+});
+
+// Формы 
+$("input").on("focus", function() {
+	$(this).siblings(".form__name").addClass("form__name--active");
+});
+$("input").on("blur", function() {
+	if(($(this).val() == "") || ($(this).val() == "+7(___) ___-____")){
+		$(this).siblings(".form__name").removeClass("form__name--active");
+	}
+});
+// Маска для телефона 
+$("#phone").mask("+7(999) 999-9999");
