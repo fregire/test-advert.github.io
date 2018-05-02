@@ -20,11 +20,11 @@
 				<button class="menu__mobile"><span class="visually-hidden">Открыть меню</span></button>
 				<ul class="menu__list">
 					<li class="menu__item"><a class="menu__link" href="#">Компетенции</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Стоимость</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Этапы и отзывы</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Частые вопросы</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+					<li class="menu__item"><a class="menu__link" href="#projects">Проекты</a></li>
+					<li class="menu__item"><a class="menu__link" href="#price">Стоимость</a></li>
+					<li class="menu__item"><a class="menu__link" href="#steps">Этапы и отзывы</a></li>
+					<li class="menu__item"><a class="menu__link" href="#faq">Частые вопросы</a></li>
+					<li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
 				</ul>
 			</nav>
 			<address class="menu__phone"><a class="phone" href="tel:+79526684422">+7 (952) 668-44-22</a></address>
@@ -100,7 +100,7 @@
 		</section>
 		<section class="projects">
 			<div class="projects__inner">
-				<header class="projects__header">
+				<header class="projects__header" id="projects">
 					<h2 class="projects__headline">Проекты выполненные нашей командой
 					<br> лучшее подтверждение её компетенций и опыта</h2>
 					<p class="projects__descr">Мы занимаемся созданием сайтов, брендингом, рекламой<br> и развиваем проекты в digital.</p>
@@ -180,7 +180,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="price">
+		<section class="price" id="price">
 			<div class="price__inner">
 				<header class="price__header">
 					<h2 class="headline price__headline">Cтоимость комплекса услуг</h2>
@@ -341,7 +341,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="feedback">
+		<section class="feedback" id="steps">
 			<h2 class="visually-hidden">Отзывы и этапы работы</h2>
 			<div class="feedback__inner">
 				<div class="feed-item feed-item--steps">
@@ -386,7 +386,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="faq">
+		<section class="faq" id="faq">
 			<div class="faq__inner">
 				<h2 class="faq__headline headline">Самые частые вопросы</h2>
 				<div class="faq__questions">
@@ -418,13 +418,13 @@
 				</div>
 			</div>
 		</section>
-		<section class="callback">
+		<section class="callback" id="contacts">
 			<div class="callback__inner">
 				<div class="callback__request">
 					<h2 class="callback__headline headline">Оставьте заявку</h2>
 					<p class="callback__descr">Мы всегда с удовольствием делимся своим опытом и знаниями. 
 					Расскажите нам о своем проекте, пожалуйста. Один из наших менеджеров свяжется с Вами в кратчайшие сроки и подготовит оптимальное предложение.</p>
-					<form action="#" class="form">
+					<form method="POST" class="form">
 						<label class="form__field form__field--must">
 							<span class="form__name">Ваше имя</span>
 							<input class="input" type="text" name="name">
@@ -467,6 +467,34 @@
 	<footer class="footer">
 		<p class="footer__year">&copy; 2018</p>
 	</footer>
+	<button class="page__scroll"><span class="visually-hidden">Наверх</span></button>
+	<div class="modal">
+		<form action="#" class="modal__form form">
+						<label class="form__field form__field--must">
+							<span class="form__name">Ваше имя</span>
+							<input class="input input--modal" type="text" name="name">
+						</label>
+						<label class="form__field form__field--must">
+							<span class="form__name">Телефон</span>
+							<input class="input input--modal" id="phone" type="tel" name="phone">
+						</label>
+						<label class="form__field form__field--must">
+							<span class="form__name">Email</span>
+							<input class="input input--modal" id="" type="text" name="email">
+						</label>
+						<label class="form__field form__field--last">
+							<span class="form__name">Сообщение</span>
+							<input class="input input--modal" type="text" name="message">
+						</label>
+						<div class="g-recaptcha" data-sitekey="6LeQclYUAAAAAG5R7zbRyrK3DdreAqkMFaLaeKCB"></div>
+						<button class="form__btn btn btn--form">Отправить заявку</button>
+						<span class="modal__close"><span class="visually-hidden">Закрыть окно</span></span>
+		</form>
+		<div class="modal__success">
+			<h2 class="headline headline--success">Ваше письмо успешно отправлено!</h2>
+				<span class="modal__close"><span class="visually-hidden">Закрыть окно</span></span>
+		</div>
+	</div>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="js/libs.js"></script>
 
