@@ -15,8 +15,9 @@
 	<header class="header">
 		<h1 class="visually-hidden">BerezkaStudio Company</h1>
 		<div class="header__inner">
-			<nav class="menu">
+			<nav class="header__menu menu">
 				<h2 class="visually-hidden">Главная навигация по сайту</h2>
+				<button class="menu__mobile"><span class="visually-hidden">Открыть меню</span></button>
 				<ul class="menu__list">
 					<li class="menu__item"><a class="menu__link" href="#">Компетенции</a></li>
 					<li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
@@ -35,10 +36,10 @@
 			<div class="main-screen__content">
 				<p class="main-screen__text">Комплексное предложение для ИП и малого бизнеса</p>
 				<h2 class="main-screen__headline">
-					Логотип <i class="main-screen__arrow"></i>
-					Сайт <i class="main-screen__arrow"></i>
-					Реклама <i class="main-screen__arrow"></i>
-					Поддержка
+					<span>Логотип </span><i class="main-screen__arrow"></i>
+					<span>Сайт </span><i class="main-screen__arrow"></i>
+					<span>Реклама </span><i class="main-screen__arrow"></i>
+					<span>Поддержка</span>
 				</h2>
 				<button class="btn btn--main-screen">Отправить заявку</button>
 			</div>
@@ -441,7 +442,7 @@
 							<input class="input" type="text" name="message">
 						</label>
 						<div class="g-recaptcha" data-sitekey="6LeQclYUAAAAAG5R7zbRyrK3DdreAqkMFaLaeKCB"></div>
-						<button class="btn btn--form">Отправить заявку</button>
+						<button class="form__btn btn btn--form">Отправить заявку</button>
 					</form>
 				</div>
 				<div class="callback__contacts contacts">

@@ -73,3 +73,9 @@ $(".btn--form").on("click", function(e) {
 	};
 	e.preventDefault();
 });
+
+// Открытие меню 
+$(".menu__mobile").on("click", function() {
+	$(".menu__list").slideToggle();
+	
+});

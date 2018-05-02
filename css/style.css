@@ -56,6 +56,7 @@ img {
 }
 .btn--header {
   width: 167px;
+  height: 58px;
   font-size: 14px;
   background-color: #d1d1d1;
 }
@@ -89,6 +90,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header__menu {
+  position: relative;
+}
 /* Block - menu */
 .menu {
   -webkit-box-flex: 1;
@@ -115,6 +119,16 @@ img {
 }
 .menu__phone {
   padding: 0 33px;
+}
+.menu__mobile {
+  display: none;
+  height: 35px;
+  width: 40px;
+  background-color: transparent;
+  background: url(../img/icon_menu.svg) no-repeat;
+  background-size: cover;
+  border: none;
+  outline: none;
 }
 /* Block - phone */
 .phone {
@@ -835,6 +849,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
